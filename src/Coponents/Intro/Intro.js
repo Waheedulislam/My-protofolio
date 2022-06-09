@@ -52,6 +52,13 @@ const Intro = () => {
             <div className='blur' style={{ background: 'rgb(236 210 255)' }}>
 
             </div>
+            <div className='blur' style={{
+                background: '#C1F5FF', top: '27rem',
+                left: '26rem',
+                with: '21rem',
+                height: '11rem'
+            }}
+            ></div>
         </div>
     );
 };
