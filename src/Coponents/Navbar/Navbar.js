@@ -11,7 +11,9 @@ const Navbar = () => {
             <div className="n-right">
                 <div className='n-list'>
                     <ul style={{ listStyleType: 'none' }}>
-                        <li>Home</li>
+
+                        <li >Home
+                        </li>
                         <li>About</li>
                         <li>Services</li>
                         <li>Experience</li>
