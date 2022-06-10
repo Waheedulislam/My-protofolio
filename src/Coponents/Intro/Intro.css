@@ -103,3 +103,27 @@
     border-radius: 50%;
     padding: 0;
 }
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: 18%;
+    top: 28%;
+    left: 76%;
+    filter: blur(72px);
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: 18%;
+    top: 28%;
+    left: 68%;
+    filter: blur(72px);
+}
