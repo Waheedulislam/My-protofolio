@@ -5,7 +5,7 @@ import LinkedIn from '../../img/linkedin.png'
 import Instragram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+import boy from '../../img/boy2.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
@@ -53,7 +53,7 @@ const Intro = () => {
 
             </div>
             <div className='blur' style={{
-                background: '#C1F5FF', top: '27rem',
+                background: '#C1F5FF', top: '35rem',
                 left: '26rem',
                 with: '21rem',
                 height: '11rem'
