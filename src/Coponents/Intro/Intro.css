@@ -129,3 +129,8 @@
     left: 68%;
     filter: blur(72px);
 }
+
+.img {
+    margin-top: 36px;
+    margin-right: 25px;
+}
