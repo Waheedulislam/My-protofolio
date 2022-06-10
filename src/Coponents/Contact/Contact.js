@@ -1,6 +1,30 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Contact = () => {
+
+    const form = useRef();
+    // service_zex6nns
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_zex6nns', 'template_csuv2ff', form.current, 'l75wKBOaHj19amUX5')
+            .then((result) => {
+                console.log(result.text);
+                toast('Send a massage')
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    };
+
+
     return (
         <div style={{ paddingTop: '200px' }} className='contact-form'>
 
@@ -30,7 +54,7 @@ const Contact = () => {
             </div>
 
             <div className="c-right">
-                <form >
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='user_name' className='user' placeholder='Name' />
                     <br />
                     <input type="email" name='user_email' className='user' placeholder='Email' />
@@ -45,6 +69,7 @@ const Contact = () => {
                     >
                     </div>
                 </form>
+                <ToastContainer />
             </div>
         </div>
     );

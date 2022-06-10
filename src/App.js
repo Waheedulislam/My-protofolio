@@ -9,7 +9,7 @@ import Works from './Coponents/Works/Works';
 
 function App() {
   return (
-    <div className="App" style={{ margin: '20px' }}>
+    <div className="App" style={{ margin: '5px' }}>
       <Navbar></Navbar>
       <Intro></Intro>
       <Services></Services>

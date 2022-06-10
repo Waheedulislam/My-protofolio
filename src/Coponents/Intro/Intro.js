@@ -37,7 +37,7 @@ const Intro = () => {
 
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                <img style={{ width: '420px', paddingRight: '235px', marginTop: '58px' }} src='https://upplabs.com/wp-content/uploads/2020/07/1.png' alt="" />
+                <img style={{ width: '420px', }} className='img' src='https://upplabs.com/wp-content/uploads/2020/07/1.png' alt="" />
                 <img src={glassesimoji} alt="" />
 
                 <div style={{ top: '10rem', left: '58rem' }}>

@@ -3,7 +3,7 @@ import '../Navbar/Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className='n-wrapper'>
+        <div className='n-wrapper' style={{ marginLeft: '47px', marginRight: '45px' }}>
             <div className="n-left">
                 <div className="n-name">Andrew</div>
                 <span>Toggle</span>
