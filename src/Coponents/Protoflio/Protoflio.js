@@ -37,13 +37,13 @@ const Protoflio = () => {
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={hoc} alt="" />
+                    <img src={musicapp} alt="" />
                     <a href="https://inventory-house-a0164.web.app/">
                         <button className='button s-button'>Click For Live</button>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={musicapp} alt="" />
+                    <img src={hoc} alt="" />
                     <a href="https://melodic-kataifi-27b80e.netlify.app/">
                         <button className='button s-button'>Click For Live</button>
                     </a>

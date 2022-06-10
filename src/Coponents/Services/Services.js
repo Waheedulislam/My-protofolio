@@ -8,7 +8,7 @@ import Resume from './Wahidul Islam (4).pdf'
 
 const Services = () => {
     return (
-        <div className="Services">
+        <div className="Services" id='service'>
 
             {/* left-side */}
             <div className="awesome">

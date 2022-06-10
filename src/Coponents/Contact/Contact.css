@@ -1,0 +1,38 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user {
+    border: 2px solid var(--orange);
+    margin: 15px;
+    width: 380px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.user-massage {
+    border: 2px solid var(--orange);
+    margin: 15px;
+    width: 380px;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.w-left {
+    padding-top: 0%;
+    padding-left: 100px;
+}
+
+.c-right {
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 500px;
+    padding-top: 170px;
+}
+
+.Button {
+    margin-left: 20px;
+}

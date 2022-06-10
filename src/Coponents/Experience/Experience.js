@@ -21,7 +21,7 @@ const Experience = () => {
             {/* 3rd */}
             <div className='achievement'>
                 <div className='circle'>
-                    4+
+                    1+
                 </div>
                 <span>Companies</span>
                 <span>Work</span>

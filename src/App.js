@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Coponents/Contact/Contact';
 import Experience from './Coponents/Experience/Experience';
 import Intro from './Coponents/Intro/Intro';
 import Navbar from './Coponents/Navbar/Navbar';
@@ -8,13 +9,14 @@ import Works from './Coponents/Works/Works';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ margin: '20px' }}>
       <Navbar></Navbar>
       <Intro></Intro>
       <Services></Services>
       <Experience></Experience>
       <Works></Works>
       <Protoflio></Protoflio>
+      <Contact></Contact>
     </div>
   );
 }

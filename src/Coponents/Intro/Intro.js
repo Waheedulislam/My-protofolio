@@ -5,7 +5,7 @@ import LinkedIn from '../../img/linkedin.png'
 import Instragram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy2.png'
+// import boy from '../../img/boy2.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
@@ -37,14 +37,14 @@ const Intro = () => {
 
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                <img src={boy} alt="" />
+                <img style={{ width: '420px', paddingRight: '235px', marginTop: '58px' }} src='https://upplabs.com/wp-content/uploads/2020/07/1.png' alt="" />
                 <img src={glassesimoji} alt="" />
 
-                <div style={{ top: '10rem', left: '57rem' }}>
+                <div style={{ top: '10rem', left: '58rem' }}>
                     <FloatingDiv image={crown} txt1='Web' txt2='Developer'></FloatingDiv>
                 </div>
 
-                <div style={{ marginTop: '19rem', left: '34rem' }}>
+                <div style={{ marginTop: '20rem', left: '34rem' }}>
                     <FloatingDiv image={thumbup} txt1='Best Design' text2='Award' />
                 </div>
             </div>
