@@ -23,7 +23,6 @@
 
 .w-left {
     padding-top: 0%;
-    padding-left: 100px;
 }
 
 .c-right {
@@ -35,10 +34,25 @@
 
 .Button {
     margin-left: 20px;
+
 }
 
-/* @media only screen and (max-width: 600px) {
-    .contact-form {
-        background-color: aqua;
+@media only screen and (max-width: 600px) {
+    .user {
+        border: 2px solid var(--orange);
+        margin: 15px;
+        width: 300px;
+        height: 55px;
+        border-radius: 5px;
     }
-} */
+}
+
+@media only screen and (max-width: 600px) {
+    .user-massage {
+        border: 2px solid var(--orange);
+        margin: 15px;
+        width: 300px;
+        height: 65px;
+        border-radius: 5px;
+    }
+}

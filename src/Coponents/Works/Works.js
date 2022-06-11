@@ -8,7 +8,7 @@ import Shopify from '../../img/Shopify.png'
 
 const Works = () => {
     return (
-        <div className="works">
+        <div className="works mt-96">
             <div className="awesome">
                 <span>Works For All these</span>
                 <span>

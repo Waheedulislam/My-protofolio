@@ -4,11 +4,11 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import Card from '../Card/Card'
-import Resume from './Wahidul Islam (4).pdf'
+
 
 const Services = () => {
     return (
-        <div className="Services" id='service'>
+        <div className="Services ">
 
             {/* left-side */}
             <div className="awesome">
@@ -21,15 +21,13 @@ const Services = () => {
                 <span>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error delectus architecto porro qui!
                 </span>
-                <a href={Resume} download>
-                    <button className='button s-button'>Download CV</button>
-                </a>
+
 
                 <div className='blur s-blur' style={{ background: '#ABFF1FF94' }}></div>
             </div>
             {/* right */}
 
-            <div className='cards'>
+            <div className='cardss'>
                 <div style={{ left: '14rem' }}>
                     <Card emoji={HeartEmoji}
                         heading={'Design'}
@@ -39,7 +37,7 @@ const Services = () => {
             </div>
 
             {/* second  */}
-            <div className='cards' style={{ top: '12rem', left: '-4rem' }}>
+            <div className='cardss' style={{ top: '12rem', left: '-4rem' }}>
                 <Card emoji={Glasses}
                     heading={'Developer'}
                     Detail={'Html,Css,JavaScript,React'}
@@ -47,7 +45,7 @@ const Services = () => {
             </div>
 
             {/* 3rd */}
-            <div className='cards' style={{ top: '19rem', left: '12rem' }}>
+            <div className='cardss' style={{ top: '19rem', left: '9rem' }}>
                 <Card emoji={humble}
                     heading={'UI/UX'}
                     Detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
