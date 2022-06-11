@@ -27,6 +27,7 @@ const Protoflio = () => {
 
                     <a href="https://tools-23b08.web.app/">
                         <button className='button s-button'>Click For Live</button>
+                        <button className='button s-button ml-6'>Learn More</button>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -34,18 +35,21 @@ const Protoflio = () => {
 
                     <a href="https://gym-trainer-services.web.app/">
                         <button className='button s-button'>Click For Live</button>
+                        <button className='button s-button ml-6'>Learn More</button>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={musicapp} alt="" />
                     <a href="https://inventory-house-a0164.web.app/">
                         <button className='button s-button'>Click For Live</button>
+                        <button className='button s-button ml-6'>Learn More</button>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={hoc} alt="" />
                     <a href="https://melodic-kataifi-27b80e.netlify.app/">
                         <button className='button s-button'>Click For Live</button>
+                        <button className='button s-button ml-6'>Learn More</button>
                     </a>
                 </SwiperSlide>
             </Swiper>
