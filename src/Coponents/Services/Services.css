@@ -1,10 +1,20 @@
 .Services {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
     margin-bottom: 9rem;
-    margin-bottom: 13rem;
     margin-top: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Services {
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .developer {
+        display: none;
+    }
 }
 
 .awesome {

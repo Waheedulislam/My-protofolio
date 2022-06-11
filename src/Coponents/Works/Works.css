@@ -3,7 +3,9 @@
     display: flex;
     height: 90vh;
     margin-top: 4rem;
+    margin-bottom: 80px;
 }
+
 
 /* :right */
 .w-right {

@@ -37,7 +37,7 @@ const Services = () => {
             </div>
 
             {/* second  */}
-            <div className='cardss' style={{ top: '12rem', left: '-4rem' }}>
+            <div className='cardss developer' style={{ top: '12rem', left: '-4rem' }}>
                 <Card emoji={Glasses}
                     heading={'Developer'}
                     Detail={'Html,Css,JavaScript,React'}
