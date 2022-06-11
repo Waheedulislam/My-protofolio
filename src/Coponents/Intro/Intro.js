@@ -9,7 +9,7 @@ import Resume from './Wahidul Islam (4).pdf'
 const Intro = () => {
     return (
         <div>
-            <div class="hero max-h-screen ">
+            <div class="hero min-h-screen ">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src={my} class="max-w-96 max-h-96 rounded-lg shadow-2xl" />
 
