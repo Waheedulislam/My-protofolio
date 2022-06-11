@@ -61,21 +61,21 @@ const Contact = () => {
                                         <span class="label-text">Name</span>
                                     </label>
 
-                                    <input type="text" name='user_name' placeholder="Name" class="input input-bordered" />
+                                    <input type="text" readOnly name='user_name' placeholder="Name" class="input input-bordered" />
                                 </div>
 
                                 <div class="form-control">
                                     <label class="label">
                                         <span class="label-text">Email</span>
                                     </label>
-                                    <input type="email" name='user_email' class="input input-bordered" placeholder='Email' />
+                                    <input type="email" readOnly name='user_email' class="input input-bordered" placeholder='Email' />
                                 </div>
 
                                 <div class="form-control">
                                     <label class="label">
                                         <span class="label-text">Message</span>
                                     </label>
-                                    <textarea type="email" name='message' class="input input-bordered" placeholder='Message' />
+                                    <textarea type="email" readOnly name='message' class="input input-bordered" placeholder='Message' />
                                 </div>
 
 
